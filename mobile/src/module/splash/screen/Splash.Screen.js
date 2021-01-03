@@ -5,7 +5,7 @@ import styles from '@module/splash/assets/styles';
 const SplashScreen = () => {
   return (
     <>
-      <StatusBar barStyle="dark-content" />
+      <StatusBar barStyle="dark-content" backgroundColor="transparent" hidden={false} />
       <ImageBackground style={styles.background} source={require('@assets/images/background.jpg')}>
         <View style={styles.container}>
           <View style={styles.content}>
